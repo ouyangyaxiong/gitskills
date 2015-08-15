@@ -1,2 +1,2 @@
-test
+test solve bug
 creating a new branch is quick and simple.
