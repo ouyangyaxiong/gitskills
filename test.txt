@@ -1,3 +1,7 @@
-tsteeststsdsldfja s
-sdkfj lskdj
-creating a new branch is quick & simple.
+<<<<<<< HEAD
+test
+creating a new branch is quick and simple.
+=======
+test
+creating a new branch is quick AND simple.
+>>>>>>> feature1
