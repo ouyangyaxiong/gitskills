@@ -2,10 +2,13 @@
 <<<<<<< HEAD
 test
 creating a new branch is quick and simple.
+<<<<<<< HEAD
 =======
 test
 creating a new branch is quick AND simple.
 >>>>>>> feature1
 =======
 test
+>>>>>>> dev
+=======
 >>>>>>> dev
