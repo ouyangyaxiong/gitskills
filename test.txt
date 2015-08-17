@@ -1,2 +1,9 @@
 test solve bug
 creating a new branch is quick and simple.
+<<<<<<< HEAD
+add coding :utf-8
+change dev
+=======
+add coding :utf-8
+change dev
+>>>>>>> 3f9fd31f1c0a47d24efe2d4b5e4411a72e4a193a
