@@ -37,5 +37,7 @@ jobs:
       - name: Run push msg
         env:
           SERVERCHAN_KEY: ${{secrets.SERVERCHAN_KEY}}
-          RANDOM_NUM: date %N
-        run: curl http://sc.ftqq.com/$SERVERCHAN_KEY.send?text=restart-$RANDOM_NUM
+          BARK_KEY: ${{secrets.BARK_KEY}}
+        run: |
+          chmod 777 push_msg.sh
+          ./push_msg.sh $SERVERCHAN_KEY $BARK_KEY xxxx
