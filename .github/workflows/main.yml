@@ -35,4 +35,7 @@ jobs:
           echo test, and deploy your project.
 
       - name: Run push msg
-        run: curl http://api.day.app/waNLsf69JrYiDU6JEcbAuY/git-skill-restarted
+        env:
+          SERVERCHAN_KEY: ${{secrets.SERVERCHAN_KEY}}
+          RANDOM_NUM: date %N
+        run: curl http://sc.ftqq.com/$SERVERCHAN_KEY.send?text=restart-$RANDOM_NUM
